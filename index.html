@@ -212,6 +212,19 @@ body {
     .timeline-item.right { left: 0; }
     .timeline-item::after { left: 10px; }
 }
+.timeline-content ul {
+    margin: 10px 0 0;
+    padding-left: 20px;
+}
+.timeline-content ul li {
+    font-size: 0.95rem;
+    margin-bottom: 5px;
+    line-height: 1.6;
+}
+.timeline-content i {
+    color: #ff4d79;
+    margin-right: 8px;
+}
 
 .education-section {
     text-align: center;
@@ -402,10 +415,10 @@ body {
 
 <!-- Header -->
 <header class="header" data-aos="fade-up">
-<img src="shared image (1).jpg" alt="Profile Photo" loading="lazy">
+<img src="image.jpg" alt="Profile Photo" loading="lazy">
     <h1>Raju</h1>
 <h3>Full Stack .NET Developer | Angular | MVC | Web API</h3>
-    <a href="resume.pdf" download class="btn btn-primary"><i class="fas fa-download"></i> Download Resume</a>
+    <a href="https://pottiraju.github.io/resume-website/Resume.pdf" download class="btn btn-primary"><i class="fas fa-download"></i> Download Resume</a>
 </header>
 
 <div class="divider"></div>
@@ -465,22 +478,39 @@ body {
 <section id="experience" class="container" data-aos="fade-up">
     <h2 class="section-title">Experience</h2>
     <div class="timeline">
+
+        <!-- Current Job: EGS -->
         <div class="timeline-item left" data-aos="fade-right">
             <div class="timeline-content">
-                <h4>Evolutyz IT Services</h4>
-                <span>Feb 2023 - Present</span>
-                <p>Worked on HRMS (EzCorner) and EGifting projects using ASP.NET Core, Angular, SQL Server, and NgRx for state management.</p>
+                <h4><i class="fas fa-building"></i> EGS</h4>
+                <span class="text-muted">Aug 2025 - Present</span>
+                <p><strong>Role:</strong> .NET Developer</p>
+                <ul>
+                    <li>Developing enterprise-level applications using ASP.NET Core and C#.</li>
+                    <li>Implementing secure APIs and optimizing backend services.</li>
+                    <li>Collaborating with cross-functional teams for scalable solutions.</li>
+                </ul>
             </div>
         </div>
+
+        <!-- Previous Job: Evolutyz IT Services -->
         <div class="timeline-item right" data-aos="fade-left">
             <div class="timeline-content">
-                <h4>Freelance Projects</h4>
-                <span>2022 - 2023</span>
-                <p>Developed custom web applications and dashboards for clients using Angular, .NET, and REST APIs.</p>
+                <h4><i class="fas fa-briefcase"></i> Evolutyz IT Services</h4>
+                <span class="text-muted">Feb 2023 - July 2025</span>
+                <p><strong>Role:</strong> Full Stack .NET Developer</p>
+                <ul>
+                    <li>Developed scalable web applications using Angular and ASP.NET Core.</li>
+                    <li>Implemented state management with NgRx and optimized API performance.</li>
+                    <li>Worked on HRMS (EzCorner) and E-Gifting projects.</li>
+                </ul>
             </div>
         </div>
+
     </div>
 </section>
+
+
 
 <div class="divider"></div>
 
